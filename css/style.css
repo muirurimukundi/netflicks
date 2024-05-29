@@ -1,0 +1,15 @@
+/*css variables or custom properties*/
+
+:root {
+    --primary-color: #e50914;
+
+}
+
+
+/*reset default styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
