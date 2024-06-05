@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #e50914;
-
+    --dark-color: #141414;
 }
 
 
@@ -155,4 +155,14 @@ p{  margin: 0.5rem 0; }
     font-size: 2rem;
     padding: 1.5rem 2.5rem;
     text-transform: uppercase;
+}
+
+
+/* Tabs */
+
+.tabs {
+    background: var(--dark-color);
+    padding-top: 1rem;
+    border-bottom:3px solid  #3d3d3d;
+     
 }
