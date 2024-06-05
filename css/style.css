@@ -52,6 +52,8 @@ p{  margin: 0.5rem 0; }
     z-index: 1;
     background:rgba(0,0,0,0.60);
 }
+
+
 .btn-xl{
     font-size: 2rem;
     padding: 1.5rem 2.5rem;
@@ -62,6 +64,7 @@ p{  margin: 0.5rem 0; }
 .showcase-top{
     position: relative;
     height: 90px;
+    z-index: 2;
 
 }
 
@@ -83,6 +86,7 @@ p{  margin: 0.5rem 0; }
 
 .showcase-content{
     position: relative;
+    z-index: 2;
     margin: auto;
     display: flex;
     flex-direction: column;
