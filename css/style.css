@@ -62,7 +62,16 @@ p{  margin: 0.5rem 0; }
     transform: translate(-50%, -50%);
 }
 
-
+.showcase-content{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9rem;
+}
 /*Buttons styles*/
 .btn{
     display: inline-block;
@@ -96,6 +105,6 @@ p{  margin: 0.5rem 0; }
 
 .btn-lg{
     font-size: 1rem;
-    padding: 0.8rem 1.3 rem;
+    padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 }
