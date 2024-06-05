@@ -112,7 +112,7 @@ p{  margin: 0.5rem 0; }
     font-weight: 400;
     font-size: 1.9rem;
     line-height: 1.25;
-    margin: 0 0 2rem;
+    margin: 1.5rem 0 2rem;
 }
 /*Buttons styles*/
 .btn{
@@ -139,6 +139,7 @@ p{  margin: 0.5rem 0; }
 }
 
 .btn-xl{
+    width: 20%;
     font-size: 2rem;
     padding: 1.5rem 2.5rem;
     text-transform: uppercase;
@@ -147,14 +148,16 @@ p{  margin: 0.5rem 0; }
 
 .btn-lg{
     font-size: 1rem;
-    padding: 0.8rem 1.3rem;
+    padding: 0.8rem 1rem;
     text-transform: uppercase;
 }
 
 .btn-xl{
-    font-size: 2rem;
-    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
+    padding: 1rem 2.5rem;
+    font-weight: bolder;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 
 
@@ -165,4 +168,14 @@ p{  margin: 0.5rem 0; }
     padding-top: 1rem;
     border-bottom:3px solid  #3d3d3d;
      
+}
+
+
+.tabs .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
